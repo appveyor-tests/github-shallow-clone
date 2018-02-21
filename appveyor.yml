@@ -1,4 +1,6 @@
-build: off
+shallow_clone: true
 
 test_script:
 - ps: if (-not (Test-Path 'README.md')) { throw "README.md doesn't exist."; }
+
+build: off
